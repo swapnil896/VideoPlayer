@@ -56,15 +56,47 @@
 		55A37FB3244DFA3A00507F2A /* VideoPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				55A37FB4244DFA3A00507F2A /* AppDelegate.swift */,
-				55A37FB6244DFA3A00507F2A /* SceneDelegate.swift */,
-				55A37FB8244DFA3A00507F2A /* ViewController.swift */,
-				55A37FBA244DFA3A00507F2A /* Main.storyboard */,
-				55A37FBD244DFA3C00507F2A /* Assets.xcassets */,
-				55A37FBF244DFA3C00507F2A /* LaunchScreen.storyboard */,
-				55A37FC2244DFA3C00507F2A /* Info.plist */,
+				55A37FC8244E003600507F2A /* AppDelegate */,
+				55A37FC9244E004500507F2A /* Controllers */,
+				55A37FCA244E005B00507F2A /* Storyboards */,
+				55A37FCB244E006C00507F2A /* Resources */,
 			);
 			path = VideoPlayerDemo;
+			sourceTree = "<group>";
+		};
+		55A37FC8244E003600507F2A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				55A37FB4244DFA3A00507F2A /* AppDelegate.swift */,
+				55A37FB6244DFA3A00507F2A /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		55A37FC9244E004500507F2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55A37FB8244DFA3A00507F2A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55A37FCA244E005B00507F2A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				55A37FBA244DFA3A00507F2A /* Main.storyboard */,
+				55A37FBF244DFA3C00507F2A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		55A37FCB244E006C00507F2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55A37FBD244DFA3C00507F2A /* Assets.xcassets */,
+				55A37FC2244DFA3C00507F2A /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VideoPlayerDemo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VideoPlayerDemo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
